@@ -470,6 +470,9 @@ h3{
     color: rgb(136, 132, 132);
     font-size: 14px;
     padding: 60px 0 20px ;
+      width: 100%;
+      min-height: 50vh;
+      
    }
    .footer p{
     color:rgb(110, 110, 110);
@@ -562,4 +565,22 @@ h3{
 
 .rating .fa{
     color: orange;
+}
+
+
+.smallcontainer{
+    background: skyblue;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+}
+
+.session:nth-child(odd){
+    background: skyblue;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
 }
